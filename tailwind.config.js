@@ -16,6 +16,9 @@ export default {
       animation: {
         gradient: 'gradient 8s linear infinite'
       },
+      rotate: {
+        360: '360deg',
+      },
       backgroundColor : {
         'background': '#11071f',
       },

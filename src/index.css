@@ -7,3 +7,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Cursor Styles */
+#custom-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff66b2;  /* Pink color */
+    border-radius: 50%;
+    pointer-events: none;
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+#custom-cursor.cursor-hover {
+    width: 40px;  /* Enlarges cursor when hovering over links or interactive elements */
+    height: 40px;
+}
