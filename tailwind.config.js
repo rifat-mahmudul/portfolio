@@ -26,7 +26,10 @@ export default {
         'Playfair' : ["Playfair Display", "serif"],
         'russo' : ["Russo One", "serif"],
         'Great-Vibes' : ["Great Vibes", "serif"]
-      }
+      },
+      space: {
+        'wide': '5rem',
+      },
     },
   },
   plugins: [],
