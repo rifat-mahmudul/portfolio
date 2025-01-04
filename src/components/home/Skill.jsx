@@ -29,7 +29,7 @@ const Skill = () => {
     
 
     return (
-        <section className="pb-16">
+        <section>
             <div className="max-w-[90%] xl:max-w-[1160px] mx-auto flex flex-col xl:flex-row justify-between items-start text-center space-y-8">
                 {/* Rotating Skill Icons */}
                 <motion.div
@@ -80,7 +80,7 @@ const Skill = () => {
                     {/* Skill List */}
                     <div className="mt-8">
 
-                        <div className="grid grid-cols-2  sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5">
+                        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5">
                                 
                             <div>
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-orange-500 bg-[#ffae0041]">
