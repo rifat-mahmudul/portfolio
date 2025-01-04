@@ -78,11 +78,11 @@ const Skill = () => {
                     </p>
 
                     {/* Skill List */}
-                    <div className="mt-8">
+                    <div className="sm:mt-10 mt-16">
 
                         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5">
                                 
-                            <div>
+                            <div className="-mt-8 lg:-mt-0">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-orange-500 bg-[#ffae0041]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-orange-300">
                                         <FaHtml5 className="text-orange-700 text-5xl font-bold" />
@@ -92,7 +92,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">Html</h1>
                             </div>
                                 
-                            <div>
+                            <div className="-mt-8 lg:-mt-0">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-blue-500 bg-[#0040ff41]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-blue-300">
                                         <FaHtml5 className="text-blue-700 text-5xl font-bold" />
@@ -102,7 +102,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">Css</h1>
                             </div>
                                 
-                            <div>
+                            <div className="-mt-8 lg:-mt-0">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-blue-500 bg-[#0040ff41]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-blue-300">
                                         <SiTailwindcss className="text-blue-700 text-5xl font-bold" />
@@ -112,7 +112,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">Tailwind</h1>
                             </div>
                                 
-                            <div>
+                            <div className="-mt-8 lg:-mt-0">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-gray-500 bg-[#babbbd41]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-white">
                                         <FaGithub className="text-black text-5xl font-bold" />
@@ -122,7 +122,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">Github</h1>
                             </div>
                                 
-                            <div>
+                            <div className="-mt-8 lg:-mt-0">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-yellow-500 bg-[#eeff0041]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-yellow-300">
                                         <FaJsSquare className="text-yellow-700 text-5xl font-bold" />
@@ -132,7 +132,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">Javascript</h1>
                             </div>
 
-                            <div>
+                            <div className="-mt-8">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-sky-500 bg-[#00bfff41]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-sky-300">
                                         <FaReact className="text-sky-700 text-5xl font-bold" />
@@ -142,7 +142,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">React</h1>
                             </div>
 
-                            <div>
+                            <div className="-mt-8">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-orange-500 bg-[#ffae0041]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-orange-300">
                                         <SiFirebase className="text-orange-700 text-5xl font-bold" />
@@ -152,7 +152,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">Firebase</h1>
                             </div>
 
-                            <div>
+                            <div className="-mt-8">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-green-500 bg-[#00ff2f41]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-green-300">
                                         <FaNodeJs className="text-green-700 text-5xl font-bold" />
@@ -162,7 +162,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">Node js</h1>
                             </div>
 
-                            <div>
+                            <div className="-mt-8">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-gray-500 bg-[#c0c3c141]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-white">
                                         <SiExpress className="text-black text-5xl font-bold" />
@@ -172,7 +172,7 @@ const Skill = () => {
                                 <h1 className="text-center h-24 w-24 font-semibold mt-2 text-xl">Node js</h1>
                             </div>
 
-                            <div>
+                            <div className="-mt-8">
                                 <div className="h-24 w-24 flex items-center justify-center rounded-full border-4 border-emerald-500 bg-[#50da655d]">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full bg-emerald-400">
                                         <SiMongodb className="text-emerald-700 text-5xl font-bold" />
