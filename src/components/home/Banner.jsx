@@ -69,7 +69,7 @@ const Banner = () => {
     };
 
     return (
-        <section className="relative overflow-hidden mt-20 sm:mt-14 lg:mt-5">
+        <section id="home" className="relative overflow-hidden mt-20 sm:mt-14 lg:mt-5">
 
             <SplashCursor></SplashCursor>
 

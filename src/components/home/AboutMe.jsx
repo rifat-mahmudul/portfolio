@@ -15,7 +15,7 @@ const AboutMe = () => {
     };
 
     return (
-        <section className="relative pt-16">
+        <section id="about" className="relative pt-16">
             {/* Background Glow */}
             <motion.div
                 className="absolute inset-0 mx-auto top-1/4 h-[500px] w-[500px] rounded-full bg-gradient-to-r from-pink-500 to-purple-600 -z-10 hidden sm:block"

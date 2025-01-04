@@ -26,11 +26,11 @@ const Navbar = () => {
                     <nav>
                         <ul className="flex items-center space-x-4 font-semibold">
                             <li className="hover:text-pink-500 transition-[0.5s]">
-                                <Link>Home</Link>
+                                <a href="#home">Home</a>
                             </li>
 
                             <li className="hover:text-pink-500 transition-[0.5s]">
-                                <Link>About Me</Link>
+                                <a href='#about'>About Me</a>
                             </li>
 
                             <li className="hover:text-pink-500 transition-[0.5s]">
