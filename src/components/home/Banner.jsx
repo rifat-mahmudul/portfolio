@@ -113,7 +113,7 @@ const Banner = () => {
 
                     {/* Foreground Image */}
                     <motion.div
-                        className="relative border border-pink-600 rounded-full h-[300px] w-[300px] lg:h-[420px] lg:w-[420px] overflow-hidden shadow-xl transition-all duration-500 cursor-pointer"
+                        className="relative border border-pink-600 rounded-full h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] overflow-hidden shadow-xl transition-all duration-500 cursor-pointer"
                         variants={imageVariants}
                         initial="visible" 
                         animate="visible"
@@ -124,7 +124,7 @@ const Banner = () => {
                     >
                         
                         <motion.img
-                            className="lg:h-[520px] w-[100%] object-cover object-center transition-all duration-500 mx-auto"
+                            className="lg:h-[510px] w-[100%] object-cover object-center transition-all duration-500 mx-auto"
                             src={Rifat}
                             alt="Rifat"
                             drag

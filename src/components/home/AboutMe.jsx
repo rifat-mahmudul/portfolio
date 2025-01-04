@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { FaArrowDown } from "react-icons/fa6";
-import GradientText from "../../shared/GradientText";
 
 const AboutMe = () => {
     const glowEffect = {
@@ -19,7 +18,7 @@ const AboutMe = () => {
         <section className="relative py-16">
             {/* Background Glow */}
             <motion.div
-                className="absolute inset-0 mx-auto top-1/4 h-[500px] w-[500px] rounded-full bg-gradient-to-r from-pink-500 to-purple-600 -z-10"
+                className="absolute inset-0 mx-auto top-1/4 h-[500px] w-[500px] rounded-full bg-gradient-to-r from-pink-500 to-purple-600 -z-10 hidden sm:block"
                 variants={glowEffect}
                 animate="animate"
                 style={{
@@ -31,7 +30,7 @@ const AboutMe = () => {
             <h1 className="text-center text-4xl sm:text-6xl mb-5 font-bold">
                 Who Am I <span className="text-pink-700">!</span>
             </h1>
-            <div className="max-w-[90%] sm:max-w-2xl mx-auto leading-6 tracking-widest text-center">
+            <div className="max-w-[90%] sm:max-w-2xl mx-auto tracking-widest text-center">
                 <p>
                     My name is <span className="text-pink-600">Mahmudul Hasan Rifat</span>, and I am a dedicated and passionate{" "}
                     <span className="text-pink-600">MERN Stack</span> Developer with a proven track record of building dynamic,
@@ -61,14 +60,7 @@ const AboutMe = () => {
 
             <div className="text-center mt-5">
                 <button>
-                    <GradientText
-                        colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
-                        animationSpeed={3}
-                        showBorder={true}
-                        className="custom-class px-1"
-                    >
-                        <FaArrowDown className="animate-bounce text-4xl text-pink-700 mx-auto mt-5" />
-                    </GradientText>
+                    <FaArrowDown className="animate-bounce text-4xl text-pink-700 mx-auto mt-5" />
                 </button>
             </div>
         </section>
