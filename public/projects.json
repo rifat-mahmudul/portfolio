@@ -1,7 +1,7 @@
 [
         {
         "name" : "FoodLinker",
-        "type": "E-Commerce Website",
+        "type": "Personal Project",
         "description": "FoodLinker is a web application that bridges the gap between food donors and those in need. Users can share, request, and manage food donations seamlessly, fostering a community of sharing and reducing food waste. 🍽️",
         "technologies": ["React", "Node.js", "MongoDB", "Firebase", "Tailwind"],
         "link": "https://foodlinker-571aa.firebaseapp.com/",
@@ -10,19 +10,23 @@
         "image": "https://i.ibb.co.com/RY2x2pC/foodlinker.png"
         },
         {
-        "title": "Portfolio Website",
-        "description": "A personal portfolio showcasing my projects, skills, and contact information. Includes an interactive UI and smooth animations.",
-        "technologies": ["HTML", "CSS", "JavaScript", "GSAP"],
-        "link": "https://yourportfolio.com",
-        "repository": "https://github.com/yourusername/portfolio-website",
-        "image": "https://example.com/images/portfolio.jpg"
+        "name" : "SineWorld",
+        "type": "Personal Project",
+        "description": "🎥 SineWorld is your ultimate destination to explore, manage, and share your love for movies! Simplifying the process of discovering films, viewing details, managing your favorites, and more — all in one seamless platform.",
+        "technologies": ["React", "Node.js", "MongoDB", "Firebase", "Tailwind"],
+        "link": "https://assignment-10-9b7eb.web.app/",
+        "ClientRepository": "https://github.com/programming-hero-web-course2/b10-a10-client-side-rifat-mahmudul",
+        "ServerRepository": "https://github.com/programming-hero-web-course2/b10-a10-server-side-rifat-mahmudul",
+        "image": "https://i.ibb.co.com/HP8p4Lm/sine-World.png"
         },
         {
-        "title": "Task Management App",
-        "description": "A web application for managing daily tasks with features like drag-and-drop, categorization, and reminders.",
-        "technologies": ["Angular", "Firebase", "Bootstrap"],
-        "link": "https://your-task-app.com",
-        "repository": "https://github.com/yourusername/task-management-app",
-        "image": "https://example.com/images/task-app.jpg"
+        "name" : "Nature Adventure",
+        "type": "Personal Project",
+        "description": "Welcome to Nature Adventure, an eco-adventure experience blog website designed to inspire and educate users about eco-friendly travel adventures. Explore diverse travel options, consult experts, and enhance your journey through personalized user profiles.",
+        "technologies": ["React", "Firebase", "Tailwind"],
+        "link": "https://assignment-9-eb413.web.app/",
+        "ClientRepository": "https://github.com/programming-hero-web-course1/b10-a9-authentication-rifat-mahmudul?tab=readme-ov-file",
+        "ServerRepository": "https://github.com/programming-hero-web-course1/b10-a9-authentication-rifat-mahmudul?tab=readme-ov-file",
+        "image": "https://i.ibb.co.com/5rB1mdz/nature.png" 
         }
 ]
