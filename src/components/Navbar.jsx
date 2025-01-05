@@ -3,6 +3,7 @@ import GradientText from "../shared/GradientText"
 import { useState } from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
+import pdf from '../../public/Mahmudul_Hasan_Rifat_Resume.pdf'
 
 
 const Navbar = () => {
@@ -41,16 +42,18 @@ const Navbar = () => {
                                 <Link>Contact Me</Link>
                             </li>
 
-                            <GradientText
-                                colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
-                                animationSpeed={3}
-                                showBorder={true}
-                                className="custom-class py-2 px-4"
-                                >
-                                <button>
-                                    Resume
-                                </button>
-                            </GradientText>
+                            <a href={pdf} download>
+                                <GradientText
+                                    colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                                    animationSpeed={3}
+                                    showBorder={true}
+                                    className="custom-class py-2 px-4"
+                                    >
+                                    <button>
+                                        Resume
+                                    </button>
+                                </GradientText>
+                            </a>
 
                         </ul>
                     </nav>

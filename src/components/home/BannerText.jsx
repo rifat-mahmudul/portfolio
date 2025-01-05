@@ -5,6 +5,7 @@ import { Link } from "react-router";
 import { Typewriter } from 'react-simple-typewriter'
 import { motion } from "framer-motion";
 import Social from "./Social";
+import pdf from '../../../public/Mahmudul_Hasan_Rifat_Resume.pdf'
 
 const BannerText = () => {
     return (
@@ -57,10 +58,12 @@ const BannerText = () => {
                 </Link>
 
                 <div>
-                    <button className="flex items-center space-x-2 py-3 px-4 bg-gradient-to-r from-[#32116d] via-[#32116d] to-[#695582] text-white font-semibold rounded-lg">
-                        <span>Download Resume</span>
-                        <span><FaDownload></FaDownload></span>
-                    </button>
+                    <a href={pdf} download>
+                        <button className="flex items-center space-x-2 py-3 px-4 bg-gradient-to-r from-[#32116d] via-[#32116d] to-[#695582] text-white font-semibold rounded-lg">
+                            <span>Download Resume</span>
+                            <span><FaDownload></FaDownload></span>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
