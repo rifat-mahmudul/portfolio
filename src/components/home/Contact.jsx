@@ -40,7 +40,7 @@ const Contact = () => {
 
                 </div>
 
-                <div className="lg:w-[48%] w-[90%] flex flex-col gap-8">
+                <div className="lg:w-[48%] w-[90%] flex flex-col gap-5">
                     
                     <div className="bg-[#80808018] h-[50%] flex flex-col justify-center items-center rounded-md p-4 lg:p-0">
                         <div className="border-2 mx-auto border-dashed border-gray-400 rounded-full p-5 h-16 w-16 flex items-center justify-center">
@@ -53,7 +53,7 @@ const Contact = () => {
                     </div>
 
 
-                    <div className="h-[50%] flex sm:flex-row flex-col gap-8">
+                    <div className="h-[50%] flex sm:flex-row flex-col gap-5">
 
                         <div className="lg:w-[50%] h-full flex flex-col items-center justify-center bg-[#80808018] p-3 rounded-md">
                             <div className="border-2 mx-auto border-dashed border-gray-400 rounded-full p-5 h-16 w-16 flex items-center justify-center mb-5">
