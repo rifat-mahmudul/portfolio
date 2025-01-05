@@ -1,0 +1,28 @@
+[
+        {
+        "name" : "FoodLinker",
+        "type": "E-Commerce Website",
+        "description": "FoodLinker is a web application that bridges the gap between food donors and those in need. Users can share, request, and manage food donations seamlessly, fostering a community of sharing and reducing food waste. 🍽️",
+        "technologies": ["React", "Node.js", "MongoDB", "Firebase", "Tailwind"],
+        "link": "https://foodlinker-571aa.firebaseapp.com/",
+        "ClientRepository": "https://github.com/programming-hero-web-course2/b10a11-client-side-rifat-mahmudul",
+        "ServerRepository": "https://github.com/programming-hero-web-course2/b10a11-server-side-rifat-mahmudul",
+        "image": "https://i.ibb.co.com/RY2x2pC/foodlinker.png"
+        },
+        {
+        "title": "Portfolio Website",
+        "description": "A personal portfolio showcasing my projects, skills, and contact information. Includes an interactive UI and smooth animations.",
+        "technologies": ["HTML", "CSS", "JavaScript", "GSAP"],
+        "link": "https://yourportfolio.com",
+        "repository": "https://github.com/yourusername/portfolio-website",
+        "image": "https://example.com/images/portfolio.jpg"
+        },
+        {
+        "title": "Task Management App",
+        "description": "A web application for managing daily tasks with features like drag-and-drop, categorization, and reminders.",
+        "technologies": ["Angular", "Firebase", "Bootstrap"],
+        "link": "https://your-task-app.com",
+        "repository": "https://github.com/yourusername/task-management-app",
+        "image": "https://example.com/images/task-app.jpg"
+        }
+]
