@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Mousewheel } from 'swiper/modules';
-import Project from "./Project";
+import Project from "./Project.jsx";
 
 const Projects = () => {
 
