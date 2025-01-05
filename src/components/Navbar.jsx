@@ -35,11 +35,11 @@ const Navbar = () => {
                             </li>
 
                             <li className="hover:text-pink-500 transition-[0.5s]">
-                                <Link>Blogs</Link>
+                                <a href="#projects">Projects</a>
                             </li>
 
                             <li className="hover:text-pink-500 transition-[0.5s]">
-                                <Link>Contact Me</Link>
+                                <a href="#contactMe">Contact Me</a>
                             </li>
 
                             <a href={pdf} download>
@@ -88,31 +88,33 @@ const Navbar = () => {
                         <nav>
                             <ul className="flex flex-col items-center space-y-4 font-semibold">
                                 <li className="hover:text-pink-500 transition-[0.5s]">
-                                    <Link>Home</Link>
+                                    <a href="#home">Home</a>
                                 </li>
 
                                 <li className="hover:text-pink-500 transition-[0.5s]">
-                                    <Link>About Me</Link>
+                                    <a href='#about'>About Me</a>
                                 </li>
 
                                 <li className="hover:text-pink-500 transition-[0.5s]">
-                                    <Link>Blogs</Link>
+                                    <a href="#projects">Projects</a>
                                 </li>
 
                                 <li className="hover:text-pink-500 transition-[0.5s]">
-                                    <Link>Contact Me</Link>
+                                    <a href="#contactMe">Contact Me</a>
                                 </li>
 
-                                <GradientText
-                                    colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
-                                    animationSpeed={3}
-                                    showBorder={true}
-                                    className="custom-class py-2 px-4"
-                                    >
-                                    <button>
-                                        Resume
-                                    </button>
-                                </GradientText>
+                                <a href={pdf} download>
+                                    <GradientText
+                                        colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                                        animationSpeed={3}
+                                        showBorder={true}
+                                        className="custom-class py-2 px-4"
+                                        >
+                                        <button>
+                                            Resume
+                                        </button>
+                                    </GradientText>
+                                </a>
 
                             </ul>
                         </nav>
