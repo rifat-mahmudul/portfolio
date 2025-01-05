@@ -17,7 +17,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <section className="pb-16">
+        <section className="pb-16 mt-5">
             
             <div className="max-w-[90%] xl:max-w-[1200px] mx-auto">
 
