@@ -34,7 +34,7 @@ const Projects = () => {
                         clickable: true,
                         }}
                         modules={[Mousewheel]}
-                        className="mySwiper h-[420px] p-10"
+                        className="mySwiper lg:h-[420px] h-[1400px] sm:h-[750px]"
                     >
                         {
                             projects.map(project => (

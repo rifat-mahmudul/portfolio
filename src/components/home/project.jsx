@@ -10,7 +10,7 @@ const Project = ({ project }) => {
     return (
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
 
-            <div className="flex gap-10 items-start">
+            <div className="flex lg:flex-row flex-col gap-10 items-start">
                         <motion.div
                             className="overflow-hidden h-[400px] w-[60%] relative rounded-lg"
                             style={{
@@ -34,7 +34,7 @@ const Project = ({ project }) => {
                     {/* Description */}
                         <div>
                             
-                            <div className="flex items-start justify-between text-pink-500">
+                            <div className="flex lg:flex-row flex-col lg:items-start lg:justify-between text-pink-500">
                                 <h1 className="text-3xl font-russo mb-4 bg-gradient-to-r text-transparent bg-clip-text from-sky-400 via-pink-400 to-pink-500">{name}</h1>
 
                                 <p>{type}</p>
@@ -42,7 +42,7 @@ const Project = ({ project }) => {
 
                             <p className="text-gray-300">{description}</p>
 
-                            <div className="mt-5 flex items-center gap-14">
+                            <div className="mt-5 sm:flex items-center gap-14">
 
                                 <div>
                                     <a href={ClientRepository} target="_blank">
