@@ -21,8 +21,8 @@ const Projects = () => {
             
             <div className="max-w-[90%] xl:max-w-[1200px] mx-auto">
 
-                <h1 className="text-center text-5xl font-bold">My Recent <span>Work</span></h1>
-                <p className="text-center mt-2 text-lg text-pink-500 mb-8">Something I have build</p>
+                <h1 className="text-center text-5xl font-bold">My Recent <span className="text-[#5c29b4]">Work</span></h1>
+                <p className="text-center mt-2 text-lg text-gray-300 mb-8">Something I have build</p>
 
                 <div>
                     <Swiper
