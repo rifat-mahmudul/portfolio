@@ -16,16 +16,16 @@ const Contact = () => {
                 <p className="text-center mt-4 text-lg text-gray-300 max-w-[90%] sm:max-w-xl mx-auto">If you have any questions or concerns, please do not hesitate to contact me. I am open to any work opportunities that align with my skills and interests.</p>
             </div>
 
-            <div className="flex gap-10 mt-8">
+            <div className="flex lg:flex-row flex-col gap-10 mt-10">
 
                 <div className="lg:w-[48%] w-[90%]">
                     
-                    <div className="flex gap-8 mb-5">
-                        <div className="lg:w-[50%]">
+                    <div className="flex sm:flex-row flex-col gap-8 mb-5">
+                        <div className="sm:w-[50%]">
                             <input className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-white border border-gray-800" type="text" placeholder="Enter Your Name" />
                         </div>
 
-                        <div className="lg:w-[50%]">
+                        <div className="sm:w-[50%]">
                             <input className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-white border border-gray-800" type="email" placeholder="Enter Your Email" />
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Contact = () => {
 
                 <div className="lg:w-[48%] w-[90%] flex flex-col gap-8">
                     
-                    <div className="bg-[#80808018] h-[50%] flex flex-col justify-center items-center rounded-md">
+                    <div className="bg-[#80808018] h-[50%] flex flex-col justify-center items-center rounded-md p-4 lg:p-0">
                         <div className="border-2 mx-auto border-dashed border-gray-400 rounded-full p-5 h-16 w-16 flex items-center justify-center">
                             <div>
                                 <FaLocationDot className="mx-auto text-2xl"></FaLocationDot>
@@ -53,9 +53,9 @@ const Contact = () => {
                     </div>
 
 
-                    <div className="h-[50%] flex gap-8">
+                    <div className="h-[50%] flex sm:flex-row flex-col gap-8">
 
-                        <div className="lg:w-[50%] h-full flex flex-col items-center justify-center bg-[#80808018] p-3">
+                        <div className="lg:w-[50%] h-full flex flex-col items-center justify-center bg-[#80808018] p-3 rounded-md">
                             <div className="border-2 mx-auto border-dashed border-gray-400 rounded-full p-5 h-16 w-16 flex items-center justify-center mb-5">
                                 <div>
                                     <FaBuildingCircleArrowRight className="mx-auto text-2xl"></FaBuildingCircleArrowRight>
@@ -81,7 +81,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="lg:w-[50%] h-full flex flex-col items-center justify-center bg-[#80808018]">
+                        <div className="lg:w-[50%] lg:h-full flex flex-col items-center justify-center bg-[#80808018] p-3 rounded-md">
                             <div className="border-2 mx-auto border-dashed border-gray-400 rounded-full p-5 h-16 w-16 flex items-center justify-center">
                                 <div>
                                     <MdOutlineMail className="mx-auto text-2xl"></MdOutlineMail>
