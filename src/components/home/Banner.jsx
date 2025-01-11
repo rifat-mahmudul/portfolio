@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import BannerText from "./BannerText";
 import Rifat from "../../assets/Rifat.png";
 import { useEffect } from "react";
-import SplashCursor from "../Animation/SplashCursor";
+// import SplashCursor from "../Animation/SplashCursor";
 
 const Banner = () => {
 
@@ -71,10 +71,10 @@ const Banner = () => {
     return (
         <section id="home" className="relative overflow-hidden mt-20 sm:mt-14 lg:mt-5">
 
-            <SplashCursor></SplashCursor>
+            {/* <SplashCursor></SplashCursor> */}
 
             {/* Custom Cursor */}
-            <div id="custom-cursor" className="cursor-default absolute w-[15px] h-[15px] bg-pink-600 rounded-full pointer-events-none z-50 transition-all duration-150"></div>
+            {/* <div id="custom-cursor" className="cursor-default absolute w-[15px] h-[15px] bg-pink-600 rounded-full pointer-events-none z-50 transition-all duration-150"></div> */}
             
             <div className="min-h-screen flex flex-col md:flex-row justify-between items-center max-w-[90%] xl:max-w-[1050px] mx-auto">
                 
