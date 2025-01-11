@@ -5,8 +5,8 @@
         "description": "FoodLinker is a web application that bridges the gap between food donors and those in need. Users can share, request, and manage food donations seamlessly, fostering a community of sharing and reducing food waste. 🍽️",
         "technologies": ["React", "Node.js", "MongoDB", "Firebase", "Tailwind"],
         "link": "https://foodlinker-571aa.firebaseapp.com/",
-        "ClientRepository": "https://github.com/programming-hero-web-course2/b10a11-client-side-rifat-mahmudul",
-        "ServerRepository": "https://github.com/programming-hero-web-course2/b10a11-server-side-rifat-mahmudul",
+        "ClientRepository": "https://github.com/rifat-mahmudul/FoodLinker-Client",
+        "ServerRepository": "https://github.com/rifat-mahmudul/FoodLinker-Server",
         "image": "https://i.ibb.co.com/RY2x2pC/foodlinker.png"
         },
         {
@@ -15,8 +15,8 @@
         "description": "🎥 SineWorld is your ultimate destination to explore, manage, and share your love for movies! Simplifying the process of discovering films, viewing details, managing your favorites, and more — all in one seamless platform.",
         "technologies": ["React", "Node.js", "MongoDB", "Firebase", "Tailwind"],
         "link": "https://assignment-10-9b7eb.web.app/",
-        "ClientRepository": "https://github.com/programming-hero-web-course2/b10-a10-client-side-rifat-mahmudul",
-        "ServerRepository": "https://github.com/programming-hero-web-course2/b10-a10-server-side-rifat-mahmudul",
+        "ClientRepository": "https://github.com/rifat-mahmudul/SineWorld-Client",
+        "ServerRepository": "https://github.com/rifat-mahmudul/SineWorld-Server",
         "image": "https://i.ibb.co.com/HP8p4Lm/sine-World.png"
         },
         {
@@ -25,8 +25,8 @@
         "description": "Welcome to Nature Adventure, an eco-adventure experience blog website designed to inspire and educate users about eco-friendly travel adventures. Explore diverse travel options, consult experts, and enhance your journey through personalized user profiles.",
         "technologies": ["React", "Firebase", "Tailwind"],
         "link": "https://assignment-9-eb413.web.app/",
-        "ClientRepository": "https://github.com/programming-hero-web-course1/b10-a9-authentication-rifat-mahmudul?tab=readme-ov-file",
-        "ServerRepository": "https://github.com/programming-hero-web-course1/b10-a9-authentication-rifat-mahmudul?tab=readme-ov-file",
+        "ClientRepository": "https://github.com/rifat-mahmudul/Nature-Adventure",
+        "ServerRepository": "https://github.com/rifat-mahmudul/Nature-Adventure",
         "image": "https://i.ibb.co.com/5rB1mdz/nature.png" 
         }
 ]
