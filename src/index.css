@@ -7,19 +7,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Custom Cursor Styles
-#custom-cursor {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #ff66b2; 
-    border-radius: 50%;
-    pointer-events: none;
-    transition: width 0.2s ease, height 0.2s ease;
-}
-
-#custom-cursor.cursor-hover {
-    width: 40px;
-    height: 40px;
-} */

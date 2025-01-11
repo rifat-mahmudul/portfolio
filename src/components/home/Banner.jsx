@@ -1,30 +1,8 @@
 import { motion } from "framer-motion";
 import BannerText from "./BannerText";
 import Rifat from "../../assets/Rifat.png";
-import { useEffect } from "react";
-// import SplashCursor from "../Animation/SplashCursor";
 
 const Banner = () => {
-
-    useEffect(() => {
-        // Custom cursor event listener
-        const cursor = document.querySelector("#custom-cursor");
-        const links = document.querySelectorAll("a");
-
-        document.addEventListener("mousemove", (e) => {
-            cursor.style.left = `${e.pageX - cursor.clientWidth / 2}px`;
-            cursor.style.top = `${e.pageY - cursor.clientHeight / 2}px`;
-        });
-
-        links.forEach((link) => {
-            link.addEventListener("mouseover", () => {
-                cursor.classList.add("cursor-hover");
-            });
-            link.addEventListener("mouseleave", () => {
-                cursor.classList.remove("cursor-hover");
-            });
-        });
-    }, []);
 
     const containerVariants = {
         hidden: { opacity: 0, x: -100 },
@@ -70,11 +48,6 @@ const Banner = () => {
 
     return (
         <section id="home" className="relative overflow-hidden mt-20 sm:mt-14 lg:mt-5">
-
-            {/* <SplashCursor></SplashCursor> */}
-
-            {/* Custom Cursor */}
-            {/* <div id="custom-cursor" className="cursor-default absolute w-[15px] h-[15px] bg-pink-600 rounded-full pointer-events-none z-50 transition-all duration-150"></div> */}
             
             <div className="min-h-screen flex flex-col md:flex-row justify-between items-center max-w-[90%] xl:max-w-[1050px] mx-auto">
                 
