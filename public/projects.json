@@ -1,9 +1,19 @@
 [
         {
+        "name" : "Pawfy",
+        "type": "Personal Project",
+        "description": "Pawfy is a MERN-stack web application designed to facilitate pet adoption and enable users to create and contribute to donation campaigns for pets in need. The platform provides a seamless experience for both users and administrators to manage pets, adoption requests, and donation campaigns.",
+        "technologies": ["React", "Express", "MongoDB", "Firebase", "Tailwind"],
+        "link": "https://pawfy-693fa.firebaseapp.com",
+        "ClientRepository": "https://github.com/rifat-mahmudul/Pawfy-Client",
+        "ServerRepository": "https://github.com/rifat-mahmudul/Pawfy-Server",
+        "image": "https://i.imgur.com/wjufKDJ.jpeg"
+        },
+        {
         "name" : "FoodLinker",
         "type": "Personal Project",
         "description": "FoodLinker is a web application that bridges the gap between food donors and those in need. Users can share, request, and manage food donations seamlessly, fostering a community of sharing and reducing food waste. 🍽️",
-        "technologies": ["React", "Node.js", "MongoDB", "Firebase", "Tailwind"],
+        "technologies": ["React", "Express", "MongoDB", "Firebase", "Tailwind"],
         "link": "https://foodlinker-571aa.firebaseapp.com/",
         "ClientRepository": "https://github.com/rifat-mahmudul/FoodLinker-Client",
         "ServerRepository": "https://github.com/rifat-mahmudul/FoodLinker-Server",
@@ -13,7 +23,7 @@
         "name" : "SineWorld",
         "type": "Personal Project",
         "description": "🎥 SineWorld is your ultimate destination to explore, manage, and share your love for movies! Simplifying the process of discovering films, viewing details, managing your favorites, and more — all in one seamless platform.",
-        "technologies": ["React", "Node.js", "MongoDB", "Firebase", "Tailwind"],
+        "technologies": ["React", "Express", "MongoDB", "Firebase", "Tailwind"],
         "link": "https://assignment-10-9b7eb.web.app/",
         "ClientRepository": "https://github.com/rifat-mahmudul/SineWorld-Client",
         "ServerRepository": "https://github.com/rifat-mahmudul/SineWorld-Server",
