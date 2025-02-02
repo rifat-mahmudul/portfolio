@@ -5,11 +5,13 @@ import './index.css'
 import { BrowserRouter } from "react-router";
 import AppRoutes from './Routes/Routes';
 import AnimatedCursor from "react-animated-cursor"
+import { Toaster } from 'react-hot-toast';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <BrowserRouter>
         <AppRoutes></AppRoutes>
+        <Toaster />
       </BrowserRouter>
       <AnimatedCursor 
       innerSize={10}

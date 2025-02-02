@@ -6,8 +6,44 @@ import {
 } from "react-icons/fa";
 import { FaBuildingCircleArrowRight } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import toast from 'react-hot-toast';
 
 const Contact = () => {
+
+    const [formData, setFormData] = useState({
+        user_name: "",
+        user_email: "",
+        message: "",
+    });
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            "service_gb4f75k",
+            "template_dqm4ghv",
+            form.current,
+            "8WM6YdjQ83SHQvdRJ"
+        )
+        .then(() => {
+            toast.success("Message sent successfully!");
+        })
+        .catch((error) => {
+            console.log("Email sending failed!", error.text);
+            toast.error("Failed to send message.");
+        });
+
+        e.target.reset();
+    };
+    
     return (
         <section id="contactMe" className="pb-16 -mt-10 max-w-[90%] xl:max-w-[1200px] mx-auto">
             
@@ -20,19 +56,39 @@ const Contact = () => {
 
                 <div className="lg:w-[48%] w-[90%]">
                     
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="flex sm:flex-row flex-col gap-8 mb-5">
                             <div className="sm:w-[50%]">
-                                <input className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 border border-gray-800" type="text" placeholder="Enter Your Name" />
+                                <input 
+                                className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 border border-gray-800" 
+                                type="text"
+                                 placeholder="Enter Your Name" 
+                                 name="user_name"
+                                 onChange={handleChange}
+                                 required
+                                 />
                             </div>
 
                             <div className="sm:w-[50%]">
-                                <input className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 border border-gray-800" type="email" placeholder="Enter Your Email" />
+                                <input 
+                                className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 border border-gray-800" 
+                                type="email" 
+                                placeholder="Enter Your Email" 
+                                name="user_email"
+                                onChange={handleChange}
+                                required
+                                />
                             </div>
                         </div>
 
                         <div>
-                            <textarea className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 h-40 border border-gray-800" placeholder="Write Your Message..."></textarea>
+                            <textarea 
+                            className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 h-40 border border-gray-800" 
+                            placeholder="Write Your Message..."
+                            name="message"
+                            onChange={handleChange}
+                            required
+                            ></textarea>
                         </div>
 
                         <div>
