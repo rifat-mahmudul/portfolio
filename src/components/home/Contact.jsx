@@ -20,23 +20,27 @@ const Contact = () => {
 
                 <div className="lg:w-[48%] w-[90%]">
                     
-                    <div className="flex sm:flex-row flex-col gap-8 mb-5">
-                        <div className="sm:w-[50%]">
-                            <input className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-white border border-gray-800" type="text" placeholder="Enter Your Name" />
+                    <form>
+                        <div className="flex sm:flex-row flex-col gap-8 mb-5">
+                            <div className="sm:w-[50%]">
+                                <input className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 border border-gray-800" type="text" placeholder="Enter Your Name" />
+                            </div>
+
+                            <div className="sm:w-[50%]">
+                                <input className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 border border-gray-800" type="email" placeholder="Enter Your Email" />
+                            </div>
                         </div>
 
-                        <div className="sm:w-[50%]">
-                            <input className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-white border border-gray-800" type="email" placeholder="Enter Your Email" />
+                        <div>
+                            <textarea className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-gray-400 h-40 border border-gray-800" placeholder="Write Your Message..."></textarea>
                         </div>
-                    </div>
 
-                    <div>
-                        <textarea className="w-full p-3 rounded-md bg-[#80808018] text-white placeholder:text-white h-40 border border-gray-800" placeholder="Write Your Message..."></textarea>
-                    </div>
-
-                    <div>
-                        <button className="w-full p-3 rounded-md bg-[#80808018] text-white mt-4 border border-gray-800 hover:bg-gradient-to-r from-[#32116d] via-[#32116d] to-[#695582] transition" >Send Message</button>
-                    </div>
+                        <div>
+                            <button 
+                            type="submit"
+                            className="w-full p-3 rounded-md bg-[#80808018] text-white mt-4 border border-gray-800 hover:bg-gradient-to-r from-[#32116d] via-[#32116d] to-[#695582] transition" >Send Message</button>
+                        </div>
+                    </form>
 
                 </div>
 
