@@ -20,7 +20,7 @@ import { Link } from "react-router";
     
             <Link
             className="hover:bg-[#32116d] transition duration-300 hover:rotate-360 hover:scale-110"
-            to="https://www.linkedin.com/in/mahmudul-hasan-rifat-3a8420318/"
+            to="https://www.linkedin.com/in/mahmudul-hasan-rifat-dev25/"
             target="_blank"
             >
             <FaLinkedinIn></FaLinkedinIn>{" "}
