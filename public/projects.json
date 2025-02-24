@@ -10,6 +10,16 @@
         "image": "https://i.imgur.com/wjufKDJ.jpeg"
         },
         {
+        "name" : "Virtual Academy BD",
+        "type": "Paid Project",
+        "description": "Virtual Academy BD is a comprehensive online learning platform that offers a wide range of courses for students of all ages. The platform provides a seamless experience for students to enroll in courses, view lectures, and track their progress.",
+        "technologies": ["React", "Express", "MongoDB", "Firebase", "Tailwind"],
+        "link": "https://www.virtualacademybd.com",
+        "ClientRepository": "https://github.com/rifat-mahmudul/EdTech-Client",
+        "ServerRepository": "https://github.com/rifat-mahmudul/EdTech-Sever",
+        "image": "https://i.ibb.co.com/JRGpVNjw/screencapture-virtualacademybd-2025-02-24-20-31-25.png"
+        },
+        {
         "name" : "FoodLinker",
         "type": "Personal Project",
         "description": "FoodLinker is a web application that bridges the gap between food donors and those in need. Users can share, request, and manage food donations seamlessly, fostering a community of sharing and reducing food waste. 🍽️",
